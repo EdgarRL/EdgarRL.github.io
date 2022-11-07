@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<title>Erosario</title>
+	<meta name="robots" content="noindex">
+	<meta name="author" content="Edgar Rosario">
+	<script src="https://kit.fontawesome.com/a12f2fda7c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<script defer type="text/javascript" src="index.js"></script>
+	<link rel="icon" href="imagnes\yo.ico">
+
+</head>
+	
+<body style="height: 100%">
+	<div>
+		<header class="header" id="nav">
+			<nav class="navbar">
+				<div class="brand">						
+					<h1 href="#">ER</h1>
+				</div>
+				<button class="nav-toggle">
+					<i class="fa-solid fa-bars fabars rotate"></i>
+				</button>
+				<ul class="menu visible">
+					<li class="menu__link" onclick="hideMenu()"><a href="#home">Home</a></li>
+					<li class="menu__link" onclick="hideMenu()"><a href="#aboutme">About Me</a></li>
+					<li class="menu__link" onclick="hideMenu()"><a href="#portfolio">Portfolio</a></li>
+					<li class="menu__link" onclick="hideMenu()"><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<section id="home" class="home">
+		<div class="home__background"></div>
+		<picture>
+			<img src="imagnes\yo.jpeg" alt="Edgar" title="Developer" class="me">
+		</picture>
+		<div class="home__description">
+			<span>Hello</span>
+			<h1>I´m Edgar Rosario</h1>
+			<span>Developer/Cybersecurity</span>
+		</div>
+	</section>
+
+	<section id="aboutme">
+		<div class="container">
+			<h2 class="section__tittle">About me</h2>
+			<div class="about__grid">
+			 	<div class="about__description">
+			 		<h2>I´m Edgar Rosario, web developer / Cybersecurity</h2>
+			 		<p>I'm a junior computer scientist and web developer, currently studying cybersecurity at the ITLA institute, with a great vocation to learn new technologies in a self-taught way, good adaptation and understanding of the environment, with the vision of becoming a full stack developer.</p>
+			 		<a href="Curriculum Edgar.pdf" class="linka" target="_blank"><i class="fas fa-file-download"></i>Download CV</a>
+			 	</div>
+
+			 	<div class="about__skills">
+			 		<div class="skills__tittle">
+			 			<h2>My Skills</h2>
+			 		</div>
+			 		<div class="skills__item">
+						<ul class="skills-list">
+  							<li>
+    							<a class="html">
+     								<i><img src="imagnes\html.jpg" class="skim"></i>
+    							</a>
+  							</li>
+  						</ul>
+  					</div>
+  					<div class="skills__item">
+						<ul class="skills-list">
+  							<li>
+    							<a class="css">
+     								<i><img src="imagnes\css.jpg" class="skim"></i>
+    							</a>
+  							</li>
+  						</ul>
+  					</div>
+  					<div class="skills__item">
+						<ul class="skills-list">
+  							<li>
+    							<a class="js">
+     								<i><img src="imagnes\js.jpg" class="skim"></i>
+    							</a>
+  							</li>
+  						</ul>
+  					</div>
+  					<div class="skills__item">
+						<ul class="skills-list">
+  							<li>
+    							<a class="csharp">
+     								<i><img src="imagnes\csharp.jpg" class="skim"></i>
+    							</a>
+  							</li>
+  						</ul>
+  					</div>
+  					<div class="skills__item">
+						<ul class="skills-list">
+  							<li>
+    							<a class="sql">
+     								<i><img src="imagnes\sql.jpg" class="skim"></i>
+    							</a>
+  							</li>
+  						</ul>
+  					</div>
+			 	</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="portfolio">
+		<div class="container">
+			<h2 class="section__tittle">Portfolio</h2>
+			<h3 class="section__subtittle">Here you can see the projects I'm working on</h3>
+			<div class="portfolio__grid">
+				<div class="recipe">
+           		<figure>
+               		<img src="imagnes\lupabe.jpg">
+               	 	<div class="capa">
+                   		<h3>Frutos Lupabe</h3>
+                   		<p>The best fruits at your fingertips</p>
+                   		<a href="https://lupabe.github.io/" target="_blank">
+                   		<button class="lireci">
+                   			<span>GO</span>
+                   		</button></a>
+                	</div>
+            	</figure>
+			</div>
+
+			<div class="barnotes">
+           		<figure>
+               		<img src="imagnes\barnotes.jpg">
+               	 	<div class="capa2">
+                   		<h3>BarNotes</h3>
+                   		<p>Playing with color bars sounds a melody</p>
+                   		<a >
+                   		<button class="libar">
+                   			<span>Coming Soon</span>
+                   		</button></a>
+                	</div>
+            	</figure>
+			</div>
+
+			<div class="smilepair">
+           		<figure>
+               		<img src="imagnes\pair.jpg">
+               	 	<div class="capa3">
+                   		<h3>Smilepair</h3>
+                   		<p>Look for the smiling pair</p>
+                   		<a >
+                   		<button class="lipar">
+                   			<span>Coming Soon</span>
+                   		</button></a>
+                	</div>
+            	</figure>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h2 class="section__tittle">Contact</h2>
+			<h3 class="section__subtittle">Keep in contact...</h3>
+			<div class="contact__grid">
+				<ul class="cont__list">
+					<li>
+						<a href="https://www.instagram.com/edgr_rl/?hl=es-la" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="https://wa.me/18099097666" target="_blank" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/EdgarRL" target="_blank" class="icon"><i class="fa-brands fa-github"></i></a>
+					</li>
+				</ul>
+				<div class="contain__contact">
+					<div class="contact__form">
+						<h4 class="section__subtittle">Send a message...</h4>
+						<form action="https://formsubmit.co/erosariolorenzo20780@gmail.com" method="POST" class="form">
+							<input type="text" name="Name" placeholder="Name">
+							<input type="email" name="Email" placeholder="Email: example@gmail.com" required="">
+							<textarea type="text" name="text" placeholder="place your message here..."></textarea>
+							<button type="submit" class="btn__contact">submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<p>Copyright © 2022. <a href="#">@3d3gar</a><br>All Rights Reserved</p>
+		</div>
+	</footer>
+</body>
+</html>
